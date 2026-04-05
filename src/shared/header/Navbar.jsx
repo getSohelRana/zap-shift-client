@@ -2,6 +2,9 @@ import React from "react";
 import { Link, NavLink } from "react-router";
 import Logo from "../../components/logo/Logo";
 import Container from "../../components/container/Container";
+import { MdOutlineArrowOutward } from "react-icons/md";
+import Button from "../button/Button";
+import ThemeSwitcher from "../../components/themeSwitcher/ThemeSwitcher";
 
 const Navbar = () => {
   const links = (
@@ -57,15 +60,19 @@ const Navbar = () => {
                 {links}
               </ul>
             </div>
-            <Link>
+            <Link to="/">
               <Logo></Logo>
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{links}</ul>
           </div>
-          <div className="navbar-end">
-            <a className="btn">Button</a>
+          <div className="navbar-end gap-2">
+            <ThemeSwitcher></ThemeSwitcher>
+            <Link className="btn">Sign In</Link>
+            <Button icon={MdOutlineArrowOutward} iconPosition="right">
+              Sign Up
+            </Button>
           </div>
         </div>
       </Container>
