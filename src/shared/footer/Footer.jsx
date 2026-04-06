@@ -16,7 +16,7 @@ const Footer = () => {
         </p>
       </aside>
       <div className="border-t-2 border-dashed border-t-secondary border-b-2 border-b-secondary w-full py-4">
-        <ul className="grid grid-flow-col gap-8">
+        <ul className=" md:flex justify-center gap-8">
           <li>
             <NavLink to="">Services</NavLink>
           </li>

@@ -20,7 +20,15 @@ body {
 
 /* Custom Utilities */
 @layer {
+  
 }
+ /* Custom swiper bullet bg */
+  .swiper-pagination-bullet {
+    background-color: #045760 !important;
+    width: 80px !important;
+    border-radius: 0!important;
+    
+  }
 
 /* Light Theme */
 @plugin "daisyui/theme" {
