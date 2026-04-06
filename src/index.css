@@ -50,6 +50,7 @@ body {
   --color-blue-8: #045760;
   --color-blue-9: #03464d;
   --color-blue-10: #005c64;
+  --color-black-8 : #606060;
 }
 
 /* Dark Theme */
@@ -57,4 +58,5 @@ body {
   name: "dark";
   --color-primary: #caeb66;
   --color-secondary: #282828;
+  
 }

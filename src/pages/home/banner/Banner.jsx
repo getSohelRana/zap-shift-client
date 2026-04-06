@@ -1,7 +1,7 @@
 import React from "react";
-import slide1 from "../../assets/banner/banner1.png";
-import slide2 from "../../assets/banner/banner2.png";
-import slide3 from "../../assets/banner/banner3.png";
+import slide1 from "../../../assets/banner/banner1.png";
+import slide2 from "../../../assets/banner/banner2.png";
+import slide3 from "../../../assets/banner/banner3.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
