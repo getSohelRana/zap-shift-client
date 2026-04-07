@@ -32,7 +32,7 @@ const HowItWorks = () => {
                 <img src={icon1} alt="Shoes" />
               </figure>
               <Title>{card.title}</Title>
-              <Text>{card.desc}</Text>
+              <Text align="left">{card.desc}</Text>
             </div>
           </div>
         ))}

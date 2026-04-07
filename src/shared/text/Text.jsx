@@ -1,8 +1,21 @@
-import React from 'react';
+import React from "react";
 
-const Text = ({children}) => {
+const Text = ({
+  children,
+  className = "",
+  align = "text-center",
+  variant = "base",
+}) => {
+  const variants = {
+    base: "text-base",
+    sm: "text-sm",
+    lg: "text-lg",
+  };
+
   return (
-    <p className='text-base font-medium text-black-8'>
+    <p
+      className={`${variants[variant]} font-medium text-black/80 ${align} ${className}`}
+    >
       {children}
     </p>
   );
