@@ -7,7 +7,7 @@ const Heading = ({
   align = "text-center",
 }) => {
   return (
-    <Tag className={`font-extrabold text-4xl mb-4 ${align} ${className}`}>
+    <Tag className={`font-extrabold text-3xl md:text-4xl mb-4 ${align} ${className}`}>
       {children}
     </Tag>
   );
