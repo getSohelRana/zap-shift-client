@@ -3,6 +3,7 @@ import Banner from './banner/Banner';
 import HowItWorks from './works/HowItWorks';
 import Services from './services/Services';
 import Brands from './brands/Brands';
+import ChoseUs from './choseUs/ChoseUs';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <HowItWorks></HowItWorks>
       <Services></Services>
       <Brands></Brands>
+      <ChoseUs></ChoseUs>
     </div>
   );
 };
