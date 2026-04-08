@@ -4,6 +4,7 @@ import HowItWorks from './works/HowItWorks';
 import Services from './services/Services';
 import Brands from './brands/Brands';
 import ChoseUs from './choseUs/ChoseUs';
+import Affiliate from './affiliate/Affiliate';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Services></Services>
       <Brands></Brands>
       <ChoseUs></ChoseUs>
+      <Affiliate></Affiliate>
     </div>
   );
 };
