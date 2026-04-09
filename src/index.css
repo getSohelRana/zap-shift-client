@@ -20,15 +20,20 @@ body {
 
 /* Custom Utilities */
 @layer {
-  
 }
- /* Custom swiper bullet bg */
-  .swiper-pagination-bullet {
-    background-color: #045760 !important;
-    width: 80px !important;
-    border-radius: 0!important;
-    
-  }
+/* Custom swiper bullet bg */
+.swiper-pagination-bullet {
+  background-color: #045760 !important;
+  width: 80px !important;
+  border-radius: 0 !important;
+}
+.reviewer .swiper-pagination-bullet {
+  background-color: #045760 !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+}
+
 
 /* Light Theme */
 @plugin "daisyui/theme" {
@@ -50,7 +55,7 @@ body {
   --color-blue-8: #045760;
   --color-blue-9: #03464d;
   --color-blue-10: #005c64;
-  --color-black-8 : #606060;
+  --color-black-8: #606060;
 }
 
 /* Dark Theme */

@@ -5,6 +5,7 @@ import Services from './services/Services';
 import Brands from './brands/Brands';
 import ChoseUs from './choseUs/ChoseUs';
 import Affiliate from './affiliate/Affiliate';
+import Reviews from './reviews/Reviews';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Brands></Brands>
       <ChoseUs></ChoseUs>
       <Affiliate></Affiliate>
+      <Reviews></Reviews>
     </div>
   );
 };
