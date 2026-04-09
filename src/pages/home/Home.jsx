@@ -6,6 +6,7 @@ import Brands from './brands/Brands';
 import ChoseUs from './choseUs/ChoseUs';
 import Affiliate from './affiliate/Affiliate';
 import Reviews from './reviews/Reviews';
+import FAQ from './faq/Faq';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <ChoseUs></ChoseUs>
       <Affiliate></Affiliate>
       <Reviews></Reviews>
+      <FAQ></FAQ>
     </div>
   );
 };
