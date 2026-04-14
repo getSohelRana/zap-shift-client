@@ -19,7 +19,10 @@ body {
 }
 
 /* Custom Utilities */
-@layer {
+@layer utilities {
+  .navbar  a{
+    font-size: 18px;
+  }
 }
 /* Custom swiper bullet bg */
 .swiper-pagination-bullet {

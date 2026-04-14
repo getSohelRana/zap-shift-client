@@ -18,22 +18,22 @@ const Footer = () => {
       <div className="border-t-2 border-dashed border-t-secondary border-b-2 border-b-secondary w-full py-4">
         <ul className=" md:flex justify-center gap-8">
           <li>
-            <NavLink to="">Services</NavLink>
+            <NavLink to="/services">Services</NavLink>
           </li>
           <li>
-            <NavLink to="">Coverage</NavLink>
+            <NavLink to="/coverage">Coverage</NavLink>
           </li>
           <li>
-            <NavLink to="">About Us</NavLink>
+            <NavLink to="/about-us">About Us</NavLink>
           </li>
           <li>
-            <NavLink to="">Pricing</NavLink>
+            <NavLink to="/pricing">Pricing</NavLink>
           </li>
           <li>
-            <NavLink to="">Blog</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
           </li>
           <li>
-            <NavLink to="">Contact</NavLink>
+            <NavLink to="/contract">Contact</NavLink>
           </li>
         </ul>
       </div>

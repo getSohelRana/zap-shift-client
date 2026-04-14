@@ -4,7 +4,7 @@ import Text from "../../../shared/text/Text";
 import Heading from "../../../shared/heading/Heading";
 import Title from "../../../shared/title/Title";
 
-const Services = () => {
+const OurServices = () => {
   const services = [
     {
       title: "Express  & Standard Delivery",
@@ -61,4 +61,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default OurServices;

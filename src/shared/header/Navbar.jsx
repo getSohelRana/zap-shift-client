@@ -1,28 +1,29 @@
 import React from "react";
-import { Link, NavLink } from "react-router";
+import { Link } from "react-router";
 import Logo from "../../components/logo/Logo";
 import Container from "../../components/container/Container";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import Button from "../button/Button";
 import ThemeSwitcher from "../../components/themeSwitcher/ThemeSwitcher";
+import NavLinks from "../navItems/NavLinks";
 
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="">Services</NavLink>
+        <NavLinks to="/services">Services</NavLinks>
       </li>
       <li>
-        <NavLink to="">Coverage</NavLink>
+        <NavLinks to={"/coverage"}>Coverage</NavLinks>
       </li>
       <li>
-        <NavLink to="">About Us</NavLink>
+        <NavLinks to="/about-us">About Us</NavLinks>
       </li>
       <li>
-        <NavLink to="">Pricing</NavLink>
+        <NavLinks to="pricing">Pricing</NavLinks>
       </li>
       <li>
-        <NavLink to="">Be a Rider</NavLink>
+        <NavLinks to="/be-a-rider">Be a Rider</NavLinks>
       </li>
     </>
   );
